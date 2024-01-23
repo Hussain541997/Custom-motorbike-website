@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Style the body */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-image:url(bikeshow.jpg);
+  
+
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background:black;
+  color: white;
+}
+.header img {
+  float: left;
+  height: 180px;
+  width: 200px;
+  margin-top: -3%;
+  
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 30px;
+  float: left;
+  font-weight: lighter;
+  text-shadow: 2px 2px 4px red, 3px 2px 6px yellow;
+  border: 6px solid white;
+}
+.header p {
+  font-family: cursive;
+  font-weight: lighter;
+  float: right;
+  text-shadow: 2px 2px 4px whitesmoke;
+  
+}
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  border: 2px solid white;
+  width: 100%;
+  
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50.5px;
+  text-decoration: none;
+  border: 2px solid white;
+  
+  
+ 
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+div .container {
+  
+  color:  goldenrod;
+}
+.container {
+ margin: auto 250px;
+  font-size: 22px;
+
+  border: 4px solid goldenrod;
+
+  color: goldenrod;
+}
+.input-type label{
+  color:  goldenrod;
+  
+  display: block;
+}
+.container input-type {
+  width: 100%
+}
+option{
+  color: goldenrod;
+  background-color: black;
+  
+}
+::placeholder {
+  color: goldenrod;
+}
+
+.enq h1{
+  text-align: center;
+  color: goldenrod;
+
+}
+.input-type input, textarea, select{
+  width: 100%;
+  font-size: 1em;
+  border: 1px solid goldenrod;
+  box-shadow: 2px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  margin: 5px;
+}
+.radio-type label {
+  color: goldenrod;
+}
+.button-type button:hover{
+background-color: white;
+}
+.button-type button{
+  width: 47%;
+  font-size: 1em;
+  border: 2px solid white;
+  box-shadow: 2px;
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  background-color: goldenrod;
+  margin: 5px;
+ 
+  color: black;
+
+}
+.Contact {
+  padding: 10px;
+  height: 300px;
+  background-color: white; width: 100%;
+  text-align: center;
+}
+.Contact h2{
+  font-size: 30px;
+  color: goldenrod;
+  font-weight: bold;
+  background-color: black;
+}
+.Contact h4{
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.Contact P {
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="logo.jpeg">
+  <h1>❚█══ 𝕄𝕆𝕌ℕ𝕋𝔸𝕀ℕ ℍ𝕌ℕ𝕂 ℂ𝕌𝕊𝕋𝕆𝕄𝕊 ══█❚</h1><br><br><br><br>
+  <p> We Making your Dream motor cycle.... into Reality....</p>
+</div>
+
+<div class="navbar">
+  <a href="./bikeshow.html" class="active">Home</a>
+  <a href="./About us.html">About us</a>
+  <a  href="./Shop.html">Shop</a>
+  <a href="./GALLERY.html">Gallery</a>
+  <a href="./SHOWS AND EVENTS.html">Shows & Events</a>
+  <a href="./Testimonial.html">Testimonials</a>
+  <a href="./Contacts.html">Contact us</a>
+</div>
+<div class="enq">
+  <h1>𝔼ℕℚ𝕌𝕀ℝ𝕐 𝔽𝕆ℝ𝕄</h1>
+</div>
+<div class="container">
+    <form ><fieldset>
+      <div class="input-type">
+      <label>Name</label> 
+		<input type ="text" placeholder="Enter Your Name"><br><br></div>
+		  
+		<div class="radio-type">  
+		<label>Gender</label>
+		<input type ="radio" placeholder = "gender" name="male"> Male  
+		<input type ="radio" placeholder = "gender" name="Female"> Female  <br><br> </div>
+
+		<div class="input-type">  
+		<label>Age</label>
+		<input type ="text" placeholder="Enter Your Age"></label><br><br> </div>
+
+    <div class="input-type">
+		<label>Date Of Birth</label>
+		<input type ="date" placeholder="dd-mm-yyyy"><br><br></div>
+
+    <div class="input-type">
+		<label>Email Address</label></div>
+	
+    <div class="input-type">
+    <input type ="email" placeholder="Enter Email Address"><br><br></div>
+    
+    <div class="input-type">
+    <label>Phone number</label>
+		<select name = "phone code">
+		<option value = "+91">+91</option>
+		<option value = "+92">+92</option>
+		<input type ="number" placeholder="Enter Your Phone Number"></select><br><br></div>
+    
+    <div class="input-type">
+    <label>Dream Bike</label>
+		<select name = "Dream Bike">
+      <option value = "Scramber">SELECT YOUR DREAM BIKE</option>
+		<option value = "Scramber">Scramber</option>
+		<option value = "Brats">Brats</option>
+    <option value = "Bobbers">Bobbers</option>
+    <option value = "Cafe Racer">Cafe Racer</option></select><br><br></div>
+
+		<div class="input-type">
+    <label>Address</label>
+		<textarea name ="Address" placeholder="Enter Your Address" rows="5" columns="15"></textarea><br><br></div>
+		
+		<div class="input-type">
+    <label>State</label>
+		<select name = "Select">
+		<option value = "" disabled selected hidden>Select your state</option>
+		<option value = "Tamilnadu">Tamilnadu</option>
+		<option value = "Karnataka">Karnataka</option></select>
+		<br><br></div>
+
+    <div class="input-type">
+    <label>Pincode</label>
+		<input type ="number" placeholder="Enter your pincode"><br><br>
+  </div>
+    <div class="button-type">
+    <button type ="submit">register</button><button type ="submit">Reset</button></div>
+      </form></fieldset>
+</div>
+</body>
+<footer>
+<div class="Contact">
+  <img src="logo.gif" alt="logo" style="float: left; height: 250px; width: 450px;">
+  <h2>ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝕌𝕊</h2>
+  <h4>❚█══ 𝕄𝕆𝕌ℕ𝕋𝔸𝕀ℕ ℍ𝕌ℕ𝕂 ℂ𝕌𝕊𝕋𝕆𝕄𝕊 ══█❚</h4>
+  <p>16B, Gandhi Rd, periya Chokikulam, Madurai, </p>
+    <p> TamilNadu 625002</p>
+
+</div>
+</footer>
+</html>

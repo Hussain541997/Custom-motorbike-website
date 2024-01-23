@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-image:url(bikeshow.jpg);
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background:black;
+  color: white;
+}
+.header img {
+  float: left;
+  height: 180px;
+  width: 200px;
+  margin-top: -3%;
+  
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 30px;
+  float: left;
+  font-weight: lighter;
+  text-shadow: 2px 2px 4px red, 3px 2px 6px yellow;
+  border: 6px solid white;
+}
+.header p {
+  font-family: cursive;
+  font-weight: lighter;
+  float: right;
+  text-shadow: 2px 2px 4px whitesmoke;
+  
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  border: 2px solid white;
+  width: 100%;
+  
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 50.5px;
+  text-decoration: none;
+  border: 2px solid white;
+ 
+  
+ 
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px white;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color: white;
+  font-size: 17;
+
+}
+.card img {
+    height: 200px;
+}
+
+
+.price {
+  color: white;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 10px 0px ;
+  background-color: goldenrod;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin: ;
+}
+.card button:hover {
+  background-color: white;
+  
+}
+p{
+    color: white;
+}
+#first {
+    width: 33%;
+    float: left;
+
+
+}
+#flyer {
+    height: 30px;
+    background-color: whitesmoke;
+
+}
+.empty {
+    height: 100px;
+    background-attachment: fixed;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+   <div class="header">
+  <img src="logo.jpeg">
+  <h1>❚█══ 𝕄𝕆𝕌ℕ𝕋𝔸𝕀ℕ ℍ𝕌ℕ𝕂 ℂ𝕌𝕊𝕋𝕆𝕄𝕊 ══█❚</h1><br><br><br><br>
+  <p> We Making your Dream motor cycle.... into Reality....</p>
+</div>
+<div class="navbar">
+    <a href="./bikeshow.html" class="active">Home</a>
+    <a href="#">About us</a>
+    <a  href="./Shop.html">Shop</a>
+    <a href="./GALLERY.html">Gallery</a>
+    <a href="./SHOWS AND EVENTS.html">Shows & Events</a>
+    <a href="./Testimonial.html">Testimonials</a>
+    <a href="./Contacts.html">Contact us</a>
+  </div>
+<h1 style="text-align: center;color: white;text-shadow: 2px 2px 3px red;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">𝕊ℍ𝕆ℙℙ𝕀ℕ𝔾 ℂ𝔸ℝ𝕋</h1>
+<div class="row" id="flyer" >
+    <marquee  direction="up"; scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" style="overflow: hidden;" id="flyer"><center>
+       <h3>NO COST EMI</h3>
+       <h3 style="color: red;">WORLDWIDE FREE SHIPPING</h3>
+       <h3>1 YEAR WARRANTY</h3></center>
+
+    </marquee>
+</div>
+
+<div class="empty"> 
+
+</div>
+
+<div class="cart" style="width:100%;height:500px;">
+<div class="row">
+    <div class="column" id="first">
+<div class="card">
+    <img src="mud gaurd.jpg" alt="mud gaurd" style="width:100%">
+    <h2>Low Rider Mudguard</h2>
+    <p class="price">₹5 390.00</p>
+    <p>Low Rider Mudguard for Royal Enfield models. Compatible with Classic, Bullet, Electra, STD models.</p>
+    <button type="submit">Add to Cart</button>
+  </div>
+</div>
+<div class="column" id="first">
+  <div class="card">
+    <img src="Folding Seat.jpg" alt="Folding Seat" style="width:100%">
+    <h2>Folding Seat</h2>
+    <p class="price">₹5 990.00</p>
+    <p>Folding seat for Royal Enfield Classic 350/500 Models. Easy & Direct to fit, Comfortable for both the riders.</p>
+    <button>Add to Cart</button>
+  </div>
+</div>
+  <div class="column" id="first">
+  <div class="card">
+    <img src="Adjustable Bobber.jpg" alt="Adjustable Bobber" style="width:100%">
+    <h2>Adjustable Bobber</h2>
+    <p class="price">₹4 800.00</p>
+    <p>PU leather bobber solo seat with height adjustment options using the same setup. No springs, sleek design. </p>
+    <button>Add to Cart</button>
+  </div>
+  </div>
+</div>
+<div class="empty"> 
+
+</div>
+
+<div class="row" style=" height: 200px;">
+    <div class="column" id="first">
+  <div class="card">
+    <img src="Handle Bar.jpg" alt="Handle Bar" style="width:100%">
+    <h2>Ape Hanger Handlebar</h2>
+    <p class="price">₹2 490.00</p>
+    <p>Ape Hanger Handlebar - Height 9Inches, Width 28Inches, Fallback 9Inches compatible with all Royal Enfield.</p>
+    <button>Add to Cart</button>
+  </div>
+</div>
+  <div class="column" id="first">
+  <div class="card">
+    <img src="mirror.jpg" alt="mirror" style="width:100%">
+    <h2>Bar End Mirrors</h2>
+    <p class="price">₹1 299.00</p>
+    <p>Bar End Mirrors for Royal Enfield Motorcycles and its compatible with most of the other motorcycles as well.    </p>
+    <button>Add to Cart</button>
+  </div>
+  </div>
+  <div class="column" id="first">
+  <div class="card">
+    <img src="grill.jpg" alt="grill with shield" style="width:100%">
+    <h2>Windshield with mounts for Royal Enfield</h2>
+    <p class="price">₹2 690.00</p>
+    <p>Windshield with mounts compatible with all Royal Enfield 350/500cc models.</p>
+    <button>Add to Cart</button>
+  </div>
+  </div>
+</div>
+  
+</div>
+</body>
+</html>
